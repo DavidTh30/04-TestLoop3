@@ -1,0 +1,88 @@
+object Form1: TForm1
+  Left = 588
+  Height = 421
+  Top = 195
+  Width = 586
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Tutorials 4: Display Average'
+  ClientHeight = 421
+  ClientWidth = 586
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poWorkAreaCenter
+  LCLVersion = '3.4.0.0'
+  object Button1: TButton
+    Left = 200
+    Height = 40
+    Top = 24
+    Width = 97
+    Caption = 'Start Loop'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 40
+    Top = 24
+    Width = 96
+    Caption = '50 Frame'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 392
+    Height = 40
+    Top = 24
+    Width = 96
+    Caption = '35 Frame'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 488
+    Height = 40
+    Top = 24
+    Width = 93
+    Caption = 'Stop'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object PaintBox2: TPaintBox
+    Left = 5
+    Height = 344
+    Top = 72
+    Width = 576
+  end
+  object Label2: TLabel
+    Left = 168
+    Height = 19
+    Top = 168
+    Width = 236
+    Caption = 'Please click ''Start Loop'' button'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 320
+    Height = 16
+    Top = 0
+    Width = 176
+    Caption = 'Tutorials 4: Display Average'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
